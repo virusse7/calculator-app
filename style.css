@@ -5,3 +5,19 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+
+.calculator {
+    margin: 0 auto;
+    width: 800px;
+    border: 1px solid black;
+}
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.screen {
+    height: 40px;
+
+}
